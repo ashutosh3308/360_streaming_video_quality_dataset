@@ -9,10 +9,15 @@ This assures that all files of this repository are getting cloned properly.
 
 ## Directory structure
 This dataset has the following structure.
+
 `/code` - Containing the Jupyter Notebook (Python3) for the modelling and video-related meta-data.
+
 `/test1` - Containing the data for test 1.
+
 `/test2` - Containing the data for test 2.
+
 `/test3` - Containing the data for test 3.
+
 `/videos` - Containing the links to the used videos and the ffmpeg version and commands to create the PVSs. Please check the corresponding README for more information.
 
 The sub directories of the specific test contain the data per test.
