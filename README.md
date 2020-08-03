@@ -1,4 +1,4 @@
-# 360 dataset (targeted to be published at GitHub if paper gets accepted)
+# 360° Streaming video quality dataset
 This repository contains a dataset of three conducted subjective 360° video quality tests.
 It contains the download links to the Source Contents (SRC) and the FFmpeg commands and build needed to generate the processed video sequences (PVS).
 Further, it contains the raw per-subject scores alongside the head rotation data, Simulator Sickness Questionnaire (SSQ) results and video-related meta-data.
@@ -49,4 +49,14 @@ The directory `ssq` contains SSQ values obtained from the SSQ after the pre-scre
 This work is licensed under [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/). See ```LICENSE.txt``` for licensing issues and details.
 
 ## Citation
-To be updated in camera ready version of paper, if it gets accepted at the conference.
+If you use any or parts of the dataset or code or parts of it, please cite the following paper or include a link to this repository.
+
+```
+@inproceedings{fremerey2020subjective,
+	title={Subjective Test Dataset and Meta-data-based Models for 360$^\circ$ Streaming Video Quality},
+	author={Fremerey, Stephan and Goering, Steve and Ramachandra Rao, Rakesh Rao and Huang, Rachel and Raake, Alexander},
+	booktitle={2020 IEEE 22nd International Workshop on Multimedia Signal Processing (MMSP)},
+	year={2020},
+	organization={IEEE}
+}
+```
